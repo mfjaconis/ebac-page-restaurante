@@ -25,13 +25,13 @@
             <nav class="navbar-collapse collapse justify-content-end" id="menu-navegacao">
                 <ul class="nav nav-pills d-block d-md-flex">
                     <li class="nav-item fw-bold">
-                        <a href="#sobre-o-restaurante" class=" nav-link">
+                        <a href="#sobre-o-restaurante" class="nav-link">
                             <i class="bi bi-house-door me-1"></i>
                             Sobre o Restaurante
                         </a>
                     </li>
                     <li class="nav-item fw-bold">
-                        <a href="" class="nav-link">
+                        <a href="#eventos" class="nav-link">
                             <i class="bi bi-calendar-check me-1"></i>
                             Eventos
                         </a>
@@ -53,7 +53,7 @@
         </div>
     </header>
 
-    <div data-bs-spy="scroll" data-bs-target="cabecalho">
+    <main data-bs-spy="scroll" data-bs-target="cabecalho">
         <section id="sobre-o-restaurante">
             <div class="carousel slide" data-bs-ride="carousel" id="carousel">
                 <div class="carousel-inner">
@@ -95,7 +95,7 @@
                                 doloremque quo voluptatibus similique ullam repudiandae deleniti velit qui odio dolore
                                 debitis illum veniam! Similique, eum? Dolorem, cum?
                             </p>
-                            <h3 class="section-title">Sobre <span>o espaço</span></h3>
+                            <h3 class="section-title text-colored">Sobre <span>o espaço</span></h3>
                             <p>
                                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur voluptate cum
                                 aliquam
@@ -113,9 +113,58 @@
                 </div>
             </div>
         </section>
-    </div>
 
-    <script src="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+        <section data-spy="scroll" id="eventos" class="pt-5 pb-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center">Para todas <span>as ocaciões</span></h2>
+                </div>
+                <div class="row mt-4">
+                    <div class="col-md-4">
+                        <img src="./images/eventos/aniversario.jpg" alt="Velas de aniversario"
+                            class="d-block w-100 rounded mb-2">
+                        <h3 class="section-title text-colored fs-4 mb-2">
+                            <i class="bi bi-calendar-heart-fill"></i>
+                            Aniversários
+                        </h3>
+                        <p>
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Id neque natus unde quasi, ad
+                            reiciendis adipisci quaerat ducimus totam tenetur aut nihil molestiae culpa optio nam
+                            molestias sint assumenda animi!
+                        </p>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="./images/eventos/casamento.jpg" alt="Velas de aniversario"
+                            class="d-block w-100 rounded mb-2">
+                        <h3 class="section-title text-colored fs-4 mb-2">
+                            <i class="bi bi-arrow-through-heart-fill"></i>
+                            Recepção para casamentos
+                        </h3>
+                        <p>
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Id neque natus unde quasi, ad
+                            reiciendis adipisci quaerat ducimus totam tenetur aut nihil molestiae culpa optio nam
+                            molestias sint assumenda animi!
+                        </p>
+                    </div>
+                    <div class="col-md-4">
+                        <img src="./images/eventos/confraternizacoes.jpg" alt="Velas de aniversario"
+                            class="d-block w-100 rounded mb-2">
+                        <h3 class="section-title text-colored fs-4 mb-2">
+                            <i class="bi bi-people-fill"></i>
+                            Confraternização
+                        </h3>
+                        <p>
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Id neque natus unde quasi, ad
+                            reiciendis adipisci quaerat ducimus totam tenetur aut nihil molestiae culpa optio nam
+                            molestias sint assumenda animi!
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 
 </html>
