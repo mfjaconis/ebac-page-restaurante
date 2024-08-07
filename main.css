@@ -1,10 +1,8 @@
-html {
+body{
+    font-family: Robot, sans-serif;
     scroll-behavior: smooth; 
 }
 
-body{
-    font-family: Robot, sans-serif;
-}
 
 .navbar {
     background-color: #e15f41;
