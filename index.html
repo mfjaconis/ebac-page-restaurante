@@ -169,14 +169,12 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
     <script>
         $(document).ready(function () {
-            $("a[href^='#']").on('click', function (event) {
-                event.preventDefault();
+            $("a").on('click', function (e) {
+                e.preventDefault();
 
-                var hash = this.hash;
-
-                $('html, body').animate({
-                    scrollTop: $(hash).offset().top
-                }, 800);
+                $('html').animate({
+                    scrollTop: $(this.hash).offset().top
+                }, 1000);
             });
         });
     </script>
