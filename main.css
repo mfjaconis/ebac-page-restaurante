@@ -1,19 +1,23 @@
 body{
     font-family: Robot, sans-serif;
-    scroll-behavior: smooth; 
 }
 
+#eventos{
+    display: flex;
+    align-items: center;
+    height: 100vh;
+}
 
 .navbar {
     background-color: #e15f41;
 }
 
-.nav .nav-link.active{
+#cabecalho .nav .nav-link.active{
     background-color: #fff;
     color: #e15f41;
 }
 
-.nav .nav-link, .navbar-brand, .navbar-brand:hover{
+#cabecalho .nav .nav-link, .navbar-brand, .navbar-brand:hover, .nav-cardapio .nav-link.active:hover{
     color: #fff;
 }
 
@@ -25,10 +29,19 @@ body{
     font-family: Pacifico, cursive;
 }
 
-#sobre-o-restaurante{
+#sobre-o-restaurante, #cardapio{
     background-color: #ffeae6;
 }
 
 .text-colored, .section-title span{
+    color: #e15f41;
+}
+
+.nav-cardapio .nav-link.active{
+    background-color: #e15f41;
+    color: #fff;
+}
+
+.nav-cardapio .nav-link:hover{
     color: #e15f41;
 }
