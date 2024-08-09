@@ -43,7 +43,7 @@
                         </a>
                     </li>
                     <li class="nav-item fw-bold">
-                        <a href="" class="nav-link">
+                        <a href="#fale-conosco" class="nav-link">
                             <i class="bi bi-chat-left-text me-1"></i>
                             Fale conosco
                         </a>
@@ -54,7 +54,7 @@
     </header>
 
     <main data-bs-spy="scroll" data-bs-target="#cabecalho">
-        <section id="sobre-o-restaurante" class="pt-5 pb-5 ">
+        <section id="sobre-o-restaurante">
             <div class="carousel slide" data-bs-ride="carousel" id="carousel">
                 <div class="carousel-inner">
                     <div class="carousel-item active" data-bs-interval="3000">
@@ -80,8 +80,8 @@
                 </div>
             </div>
 
-            <div class="pt-5 pb-5">
-                <div class="container">
+            <div class="pt-5 pb-5 d-md-flex align-center">
+                <div class=" container">
                     <div class="row">
                         <div class="col-md-5">
                             <img class="d-block w-100 rounded" src="./images/restaurante.jpg"
@@ -398,6 +398,74 @@
                                 </div>
                             </div>
                         </div>
+        </section>
+
+        <section id="fale-conosco" class="pb-5 pt-5">
+            <div class="container">
+                <div class="row">
+                    <h2 class="section-title text-center">
+                        Fale <span>conosco </span>
+                    </h2>
+                </div>
+                <div class="row">
+                    <div class="col-md-7">
+                        <form>
+                            <div class="mb-3">
+                                <label class="form-label fw-bold text-colored" for="nome">Seu nome</label>
+                                <input type="text" id="nome" class="form-control" required>
+                            </div>
+                            <div class="mb-3">
+                                <label class="form-label fw-bold text-colored" for="email">Seu e-mail</label>
+                                <input type="text" id="email" class="form-control" required>
+                            </div>
+                            <div class="mb-3">
+                                <label class="form-label fw-bold text-colored" for="telefone">Seu telefone
+                                    (opcional)</label>
+                                <input type="tel" id="telefone" class="form-control">
+                            </div>
+                            <div class="mb-3">
+                                <label class="form-label fw-bold text-colored" for="mensagem">Sua mensagem</label>
+                                <textarea class="form-control" id="mensagem" required>
+
+                                </textarea>
+                            </div>
+                            <button type="submit" class="btn fw-bold">Enviar</button>
+                        </form>
+                    </div>
+                    <div class="col-md-5">
+                        <div class="row">
+                            <h3 class="section-title fs-4 text-colored">
+                                <i class="bi bi-hand-thumbs-up-fill"></i>
+                                Redes Sociais
+                            </h3>
+                            <ul class="social-links">
+                                <li class="fs-5">
+                                    <a href="#">
+                                        <i class="bi bi-facebook text-colored"></i>
+                                    </a>
+                                </li>
+                                <li class="fs-5 ms-1 me-1">
+                                    <a href="#">
+                                        <i class="bi bi-instagram text-colored"></i>
+                                    </a>
+                                </li>
+                                <li class="fs-5">
+                                    <a href="#">
+                                        <i class="bi bi-whatsapp text-colored"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="row mt-4">
+                            <h3 class="section-title fs-4 text-colored">
+                                <i class="bi bi-cursor-fill"></i>
+                                Endereço
+                            </h3>
+                            <p>Rua Teste Exemplo nº 145, Bairro BootStrap - São Paulo - SP</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </section>
     </main>
 

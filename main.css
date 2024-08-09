@@ -1,8 +1,10 @@
 body{
     font-family: Robot, sans-serif;
+    list-style: none;
 }
 
-#eventos{
+
+#eventos, .sobre-o-restaurante{
     display: flex;
     align-items: center;
     height: 100vh;
@@ -37,11 +39,23 @@ body{
     color: #e15f41;
 }
 
-.nav-cardapio .nav-link.active{
+.nav-cardapio .nav-link.active, #fale-conosco button{
     background-color: #e15f41;
     color: #fff;
 }
 
 .nav-cardapio .nav-link:hover{
     color: #e15f41;
+}
+
+.social-links li{
+    display: inline;
+}
+
+.social-links li a {
+    text-decoration: none;
+}
+
+#fale-conosco button:hover{
+    border: 1px solid;
 }
